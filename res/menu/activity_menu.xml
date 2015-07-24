@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbt.cloudbuypractice.Activity01" >
+
+    
+    <item android:id="@+id/go" android:showAsAction="never" android:title="Continue...">
+        </item><item android:id="@+id/exit" android:title="Exit"></item>
+
+</menu>
