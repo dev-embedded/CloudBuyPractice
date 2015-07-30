@@ -30,4 +30,14 @@
         android:text="button_barcode" >
 
     </Button>
+    
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100px"
+        android:layout_y="80px"
+        android:text="button_login" >
+
+    </Button>
 </LinearLayout>

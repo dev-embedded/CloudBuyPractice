@@ -28,6 +28,10 @@
             android:name=".Activity03"
             android:label="@string/title_activity_activity03" >
         </activity>
+        <activity
+            android:name=".Activity04"
+            android:label="@string/title_activity_activity04" >
+        </activity>
     </application>
 
 </manifest>

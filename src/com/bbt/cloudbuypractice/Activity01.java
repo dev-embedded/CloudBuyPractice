@@ -25,6 +25,8 @@ public class Activity01 extends Activity
 		Button button = (Button) findViewById(R.id.button1);
 		
 		Button button_barcode = (Button) findViewById(R.id.button_barcode);
+		
+		Button button_login = (Button) findViewById(R.id.button_login);
 		/* 监听button的事件信息 */
 		button.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v)
@@ -47,6 +49,20 @@ public class Activity01 extends Activity
 				Intent intent = new Intent();
 				/* 指定intent要启动的类 */
 				intent.setClass(Activity01.this, Activity03.class);
+				/* 启动一个新的Activity */
+				startActivity(intent);
+				/* 关闭当前的Activity */
+				Activity01.this.finish();
+			}
+		});
+		
+		button_login.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v)
+			{
+				/* 新建一个Intent对象 */
+				Intent intent = new Intent();
+				/* 指定intent要启动的类 */
+				intent.setClass(Activity01.this, Activity04.class);
 				/* 启动一个新的Activity */
 				startActivity(intent);
 				/* 关闭当前的Activity */
