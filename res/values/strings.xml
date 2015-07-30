@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">CloudBuyPractice</string>
     <string name="hello">First activity.</string>
     <string name="hello2">Second activity.</string>
     <string name="ok">Next activity.</string>
     <string name="back">Return.</string>
+    <string name="barcode_scanner">Barcode scanner</string>
+    <string name="barcode_no">Barcode Number :</string>
+    <string name="search">Search</string>
+    <string name="title_activity_activity03">Activity03</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

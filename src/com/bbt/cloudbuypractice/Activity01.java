@@ -23,6 +23,8 @@ public class Activity01 extends Activity
 		setContentView(R.layout.main1);
 		/* findViewById(R.id.button1)取得布局main1.xml中的button1 */
 		Button button = (Button) findViewById(R.id.button1);
+		
+		Button button_barcode = (Button) findViewById(R.id.button_barcode);
 		/* 监听button的事件信息 */
 		button.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v)
@@ -31,6 +33,20 @@ public class Activity01 extends Activity
 				Intent intent = new Intent();
 				/* 指定intent要启动的类 */
 				intent.setClass(Activity01.this, Activity02.class);
+				/* 启动一个新的Activity */
+				startActivity(intent);
+				/* 关闭当前的Activity */
+				Activity01.this.finish();
+			}
+		});
+		
+		button_barcode.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v)
+			{
+				/* 新建一个Intent对象 */
+				Intent intent = new Intent();
+				/* 指定intent要启动的类 */
+				intent.setClass(Activity01.this, Activity03.class);
 				/* 启动一个新的Activity */
 				startActivity(intent);
 				/* 关闭当前的Activity */
