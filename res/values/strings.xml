@@ -5,4 +5,7 @@
     <string name="hello2">Second activity.</string>
     <string name="ok">Next activity.</string>
     <string name="back">Return.</string>
+    <string name="address_enter_button1">Reenter</string>
+    <string name="address_enter_button2">Google Map</string>
+    <string name="google_map_button1">Google Map</string>
 </resources>

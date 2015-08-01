@@ -2,22 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_height="fill_parent" >
+    
 	<TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello2"
-    >
+    android:text="@string/hello2" >
     </TextView>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/google_map_button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="100px"
         android:layout_y="80px"
-        android:text="Activity switch!" >
-
-    </Button>
+        android:text="@string/google_map_button1" >
+	</Button>
+	
 </LinearLayout>
