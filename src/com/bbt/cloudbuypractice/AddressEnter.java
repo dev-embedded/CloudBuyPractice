@@ -35,9 +35,9 @@ public class AddressEnter extends Activity
 		m_TextView.setTextSize(20);
 		/**
 		 * 设置当m_EditText中为空时提示的内容 
-		 * 在XML中同样可以实现：android:hint="Enter your destination address please!=请输入你的目的地地址！"
+		 * 在XML中同样可以实现：android:hint="Enter an address please!=请输入你的目的地地址！"
 		 */
-		m_EditText.setHint("Enter your destination address please!");
+		m_EditText.setHint("Enter an address please!");
 		
 		m_EditText.setOnKeyListener(new EditText.OnKeyListener() {
 			@Override
@@ -51,9 +51,9 @@ public class AddressEnter extends Activity
 		});
 		
 		
-		/* findViewById(R.id.address_button2)取得布局address_enter.xml中的button2 */
-		Button button = (Button) findViewById(R.id.address_button2);
-		/* 监听button2的事件信息 */
+		/* findViewById(R.id.address_enter_button2)取得布局address_enter.xml中的address_enter_button2 */
+		Button button = (Button) findViewById(R.id.address_enter_button2);
+		/* 监听address_enter_button2的事件信息 */
 		button.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v)
 			{
