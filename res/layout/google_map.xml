@@ -6,6 +6,7 @@
 
     <Button
         android:id="@+id/google_map_button1"
+        android:layout_gravity="right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="100px"
